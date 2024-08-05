@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Khôi phục font chữ mặc định theo rem */
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ==============================Common========================= */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  padding: 14px;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 8px;
+  background: #0f1b4c;
+}
+
+.main-content {
+  width: 1110px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ======================================Header======================== */
+.header {
+  background-color: #e6f0ff;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 38px 0px 8px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav {
+  margin-right: auto;
+  margin-left: 65px;
+}
+
+.nav a {
+  color: #4f5361;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-shadow: 0.5px 0 0 black;
+}
+
+.header .body .action a {
+  color: #0f1b4c;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.header .body .register {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 98px;
+  height: 40px;
+  margin-left: 18px;
+}
+
+/* =================================Main============================= */
+.main {
+  background-color: #e6f0ff;
+}
+
+.main .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .content-block {
+  width: 559px;
+  height: 371px;
+  width: 55%;
+  margin-top: 130px;
+}
+
+.main .body .subheading {
+  color: #687690;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  margin-bottom: 8px;
+}
+
+.main .body .heading {
+  color: #000336;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.19; /* 118.75% */
+  margin-bottom: 30px;
+}
+
+.main .body .desc {
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+  margin-bottom: 40px;
+}
+
+.main .body .content-block a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: normal;
+  width: 170px;
+  height: 50px;
+}
+
+.main .media-block {
+  width: 45%;
+}
